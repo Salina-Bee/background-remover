@@ -17,7 +17,7 @@ removeBtn.addEventListener("click", async () => {
     formData.append("file", file);
 
     // send to /remove-bg endpoint
-    const response = await fetch("https://background-remover-840813861915.us-central1.run.app/remove-bg", {
+    const response = await fetch("https://background-remover-840813861915.us-central1.run.appremove-bg", {
         method: "POST",
         body: formData,
     });
